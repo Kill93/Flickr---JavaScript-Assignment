@@ -1,0 +1,44 @@
+<html>
+<head>
+
+<title> Killian Nolan - R00129172 - Assignment 2 </title>
+<link rel = "stylesheet" href = "a2.css">
+<script src="jquery-1.12.3.js"></script>
+<script src = "assignment2.js"></script>
+</head>
+<body>
+	<div id="main">
+		
+		<div id = "imageDiv">
+
+			<div id = "column_outer">
+				<button id="leftClick"><</button> 
+				<button id="rightClick">></button> 
+				<div id = "column_inner">
+				</div>
+			</div>			
+			
+			<div id ="mainDisplay">
+			</div>
+		</div>
+
+		<div id = "sidebar">
+			<input type = "button" value = "Find Images" id = "findImage" onClick="getImages()" >
+			</br></br>
+			<p>Tags</p>
+			</br>
+			<div id ="inputTags">
+			<input type="text" id = "tag">
+			</div>		
+			<div id = "tagDiv">	
+			</div>
+			
+			<input type = "button" value = "+" id = "addTag" onClick = "addTag()";>
+			
+
+		</div>
+		
+
+	</div>	
+</body>
+</html>
